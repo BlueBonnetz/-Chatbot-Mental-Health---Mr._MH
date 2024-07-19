@@ -75,6 +75,14 @@ To run the API locally, use Flask and Ngrok. Follow these steps:
 - **Gemini API**: Supports general conversation.
 - **Text Classification API**: Processes and provides initial mental health screening for users.
 
+## Embedding
+
+- Perform `process_text`: remove emojis, replace multiple spaces with a single space, remove punctuation.
+- Tokenization.
+- Train a Word2Vec model to create Word Embeddings that convert words in the text into vectors using the average of the word vectors in the text.
+- Encode labels as numeric values because some models expect labels to be numeric.
+
+
 ## Technical Details and Tools
 - **Text Classification Model**: Utilized for message categorization.
 - **Preprocessing**:
