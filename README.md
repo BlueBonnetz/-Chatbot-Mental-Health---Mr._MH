@@ -2,6 +2,8 @@
 
 ## Description
 Mr. MH Chatbot Project is a chatbot designed to perform initial mental health screening for users and provide information about mental health. The chatbot utilizes a Text Classification Model to categorize messages based on data trained related to mental health consultation. This aims to provide a preliminary mental health assessment for users.
+## Use-Case
+![Screenshot](Use-case.png)
 
 ## Table of Contents
 - [Features](#features)
